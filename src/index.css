@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui !important;
+  direction: rtl;
+}
+body {
+  /* background: linear-gradient(135deg, #fefcea, #f1da36); */
+
+  /* background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); */
+}

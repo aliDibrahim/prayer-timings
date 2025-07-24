@@ -1,0 +1,101 @@
+/* header */
+.header {
+  border-bottom: 2px solid;
+  margin: 0px 20px;
+  padding-bottom: 8px;
+  position: relative;
+}
+.header.light {
+  border-color: #002942;
+}
+.header.dark {
+  border-color: #73c0fc;
+}
+.time-place h2,
+.next-prayer h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  transition-duration: 0.5s;
+  font-size: 20px;
+  font-weight: 400;
+}
+.time-place.light h2,
+.next-prayer.light h2 {
+  color: black;
+}
+.time-place.dark h2,
+.next-prayer.dark h2 {
+  color: white;
+}
+.logo {
+  position: absolute;
+  left: 50%;
+  bottom: -60px;
+  translate: -50%;
+  width: 50px;
+  height: 50px;
+}
+/* ---------------------------------- */
+/* title */
+.title {
+  position: relative;
+  font-size: 40px;
+  transition-duration: 0.5s;
+  padding: 18px 0px;
+  width: fit-content;
+  margin: 10px auto;
+  border-bottom: 3px solid;
+}
+.title.one {
+  margin-top: 40px;
+}
+.title.dark {
+  color: white;
+  border-color: #73c0fc;
+}
+.title.light {
+  color: #002942;
+  border-color: #0098f5;
+}
+.title .title-icon {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  translate: -50% 50%;
+  border-radius: 50%;
+}
+
+.title.light .title-icon {
+  background-color: #ffd43b;
+}
+.title.dark .title-icon {
+  background-color: #03a9f4;
+}
+/* ---------------------------------- */
+/* landing */
+.cards-container {
+  margin: 30px auto;
+  max-width: 95%;
+}
+.app {
+  padding-top: 20px;
+  min-height: 100vh;
+}
+.app.light {
+  background-image: linear-gradient(135deg, #03a9f4, #e0f7fa);
+}
+.app.dark {
+  background-image: linear-gradient(135deg, #000000, #004479);
+}
+/* ---------------------------------- */
+/* responsive */
+@media (max-width: 700px) {
+  .header {
+    padding-top: 24px;
+  }
+  .time-place h2,
+  .next-prayer h2 {
+    font-size: 16px;
+  }
+}
+/* ---------------------------------- */

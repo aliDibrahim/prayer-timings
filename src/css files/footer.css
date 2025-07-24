@@ -1,0 +1,39 @@
+.footer {
+  color: #2c3e50;
+  text-align: center;
+  padding: 40px 20px 20px;
+  margin: 0px 20px;
+  border-top: 2px solid;
+}
+.footer.light {
+  border-color: #002942;
+}
+.footer.dark {
+  border-color: #0098f5;
+}
+.footer.dark {
+  color: white;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  position: relative;
+  direction: ltr;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  direction: ltr;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-bottom p {
+  direction: ltr;
+}
